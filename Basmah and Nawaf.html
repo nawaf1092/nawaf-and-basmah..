@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>متجر بيت جدتي</title>
+<style>
+body { font-family: Arial; direction: rtl; background:#f4f4f4; margin:0 }
+header { background:#795548; color:white; padding:20px; text-align:center }
+.products { display:flex; gap:15px; padding:20px; flex-wrap:wrap }
+.product { background:white; padding:10px; border-radius:10px; width:220px; text-align:center }
+.product img { width:100%; border-radius:10px }
+form { background:white; margin:20px; padding:20px; border-radius:10px }
+button { background:#4CAF50; color:white; padding:10px; border:none; width:100% }
+</style>
+</head>
+<body>
+
+<header>
+<h1>احصل على تذكرة</h1>
+
+</header>
+
+
+
+<form action="https://formsubmit.co/nawafabdullah12120@gmail.com" method="POST">
+  <h3>إرسال الطلب</h3>
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_subject" value="طلب جديد من متجر بيت جدتي">
+
+  <input type="text" name="الاسم" placeholder="اسمك" required><br><br>
+  <input type="text" name="الجوال" placeholder="رقم الجوال" required><br><br>
+  <textarea name="الطلب" placeholder="كم تذكرة؟" required></textarea><br><br>
+
+  <button type="submit">إرسال الطلب</button>
+</form>
+
+</body>
+</html>
